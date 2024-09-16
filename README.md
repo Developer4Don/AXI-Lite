@@ -1,4 +1,4 @@
-This repository is done with AXI-Liete Master interface and AXI-Lite Slave interface which is obey with AXI4-Lite protocol.
+This repository is done with AXI-Lite Master interface and AXI-Lite Slave interface, which obey with AXI4-Lite protocol.
 
 
 # Introduction
@@ -20,6 +20,6 @@ This module is designed for been written or read according to the master's instr
 
 The two processes can work in parallel.
 
-You can also use register written by master or change register to tell master. Example is shown as "I_USER_*" and "O_USER_*".
+You can also use register written by master or change register to tell master. Example is shown as "I_USER_\*" and "O_USER_\*".
 
 Note that the address information has been shifted according to the data width.
